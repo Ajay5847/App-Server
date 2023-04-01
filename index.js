@@ -24,7 +24,7 @@ app.use(morgan("common"));
 app.use(cookieParser());
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: "https://share-your-moments.netlify.app/"
 }))
 
 app.use('/auth', authRouter);
